@@ -9,3 +9,9 @@
 .markDone {
     text-decoration: line-through;
 }
+
+.git-user, .git-user:hover, .git-user:visited {
+    text-decoration: unset;
+    color: black;
+    font-weight: bold;
+}
