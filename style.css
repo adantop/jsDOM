@@ -1,0 +1,11 @@
+.container-fluid {
+    padding: 0px;
+}
+
+#shoppingList li {
+    cursor: pointer;
+}
+
+.markDone {
+    text-decoration: line-through;
+}
