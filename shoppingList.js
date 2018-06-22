@@ -21,16 +21,16 @@ function addNewElement(value) {
     let newItem = document.createElement("li");
     let t = document.createTextNode(value);
     newItem.appendChild(t);
-    newItem.addEventListener("click", function(e) {
+    newItem.addEventListener("click", function() {
         newItem.classList.toggle("markDone");
     });
-    newItem.addEventListener("dblclick", function(e) {
+    newItem.addEventListener("dblclick", function() {
         newItem.remove();
     })
     shoppingListUL.appendChild(newItem);
 }
 
-btnAdd.addEventListener("click", function(e) {
+btnAdd.addEventListener("click", function() {
     let validatedInput = validate(userInput.value);
 
     if (validatedInput) {
